@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Court Reservation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Style/StyleSheet2.css">
+<link rel="stylesheet" href="Style/StyleSheet1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="CR-light-grey CR-content" style="max-width:1600px">
+<!-- Sidebar/menu -->
+<nav class="CR-sidebar CR-collapse CR-green CR-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="CR-container">
+    <a href="#" onclick="CR_close()" class="CR-hide-large CR-right CR-jumbo CR-padding CR-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="https://p0.piqsels.com/preview/751/312/930/man-caught-net-tennis-thumbnail.jpg" style="width:45%;"alt="image_1" class="CR-round"><br><br>
+    <h4><b>Court Types</b></h4>
+    <p class="CR-text-white">Please choose your type</p>
+  </div>
+  <div class="CR-bar-block">
+    <a href="#football" onclick="CR_close()" class="CR-bar-item  CR-padding "><i class="fa fa-chevron-circle-right fa-fw CR-margin-right"></i>FootBall</a> 
+    <a href="#basketball" onclick="CR_close()" class="CR-bar-item  CR-padding"><i class="fa fa-chevron-circle-right fa-fw CR-margin-right"></i>BasketBall</a> 
+    <a href="#tennis" onclick="CR_close()" class="CR-bar-item  CR-padding"><i class="fa fa-chevron-circle-right fa-fw CR-margin-right"></i>Tennis</a>
+    <a href="#squash" onclick="CR_close()" class="CR-bar-item  CR-padding"><i class="fa fa-chevron-circle-right fa-fw CR-margin-right"></i>Squash</a>
+    <a href="#vollyball" onclick="CR_close()" class="CR-bar-item  CR-padding"><i class="fa fa-chevron-circle-right fa-fw CR-margin-right"></i>VollyBall</a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="CR-overlay CR-hide-large CR-animate-opacity" onclick="CR_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<!-- !PAGE CONTENT! -->
+<div class="CR-main" style="margin-left:300px">
+  <!-- Header -->
+    <div class="CR-container">
+    <h1><b class="CR-text-green">Reserve your court now..</b></h1>
+    <div class="CR-text-black " id="fotball">
+        <h3>FootBall Courts</h3>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="CR-row-padding">
+    <div class="CR-third CR-container CR-margin-bottom">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+        <img src="https://avengrass.com/wp-content/uploads/2019/10/using-areas-football-pitch-thumb.jpg" alt="FootBall court 1" style="width:100%" class="CR-hover-opacity">
+      </a>      
+        <div class="CR-container CR-white">
+        <p id=""><b></b></p>
+        <p id=""></p>
+        </div>
+    </div>
+    <div class="CR-third CR-container CR-margin-bottom">
+      <a href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" target="popup"onclick="open_window_1()">
+      <img id="F2" src="https://www.kimointernational.org/wp/wp-content/uploads/2017/02/indoor_footbal_pitch-840x439.jpg" alt="FootBall court 2" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="CR-third CR-container">
+      <a href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" target="popup"onclick="open_window_2()">
+      <img id="F3" src="https://sc02.alicdn.com/kf/HTB1gLdvxHSYBuNjSspiq6xNzpXaM/225336061/HTB1gLdvxHSYBuNjSspiq6xNzpXaM.jpg" alt="FootBall court 3" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="CR-text-black CR-container" id="basketball">
+      <h3>BasketBall courts</h3>
+  </div>
+  <!-- Second Photo Grid-->
+  <div class="CR-row-padding">
+    <div class="CR-third CR-container CR-margin-bottom">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+      <img id="B1" src="https://p2.piqsels.com/preview/982/263/744/ball-basketball-basketball-court-court-thumbnail.jpg" alt="Bascket ball court 1" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="CR-third CR-container CR-margin-bottom">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+      <img id="B2" src="https://p2.piqsels.com/preview/821/287/717/basketball-park-sunset-court-thumbnail.jpg" alt="Bascket ball court 2" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="CR-third CR-container">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+      <img id="B3" src="https://p2.piqsels.com/preview/600/649/140/basketball-court-chairs-hall-people-thumbnail.jpg" alt="Bascket ball court 3" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>  
+        <p></p>
+      </div>
+    </div>
+  </div>
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="CR-text-black CR-container" id="tennis">
+      <h3>Tennis courts</h3>
+  </div>
+  
+<!-- Third photo Grid -->
+    <div class="CR-row-padding">
+    <div class="CR-third CR-container CR-margin-bottom">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+      <img src="https://watersedge.tennis/wp-content/uploads/2021/06/tennis-court-two.jpg" alt="Tennis court 1" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="CR-third CR-container CR-margin-bottom">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6a9DkzKjWhpzVEmA3Jwh0n_w_kGJEzhXDSbhCRF1--84ZbmS2eYLzOZ-C4U365kcLms&usqp=CAU" alt="Tennis court 2" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="CR-third CR-container">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+      <img src="https://d21gd0ap5v1ndt.cloudfront.net/web03/img.php?src=facility_shots/6/2.jpg&site=lsus&width=1140&height=641&crop" alt="Tennis court 3" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="CR-text-black CR-container" id="squash">
+      <h3>Squash courts</h3>
+  </div>
+
+<!--Forth photo Grid-->
+    <div class="CR-row-padding">
+    <div class="CR-third CR-container CR-margin-bottom">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+      <img src="data:image/jpeg;base64,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" alt="squash court 1" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="CR-third CR-container CR-margin-bottom">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdD6J7PVQ_coEe_sHrsOn8AFg8i7RY7zWABQ&usqp=CAU" alt="squash court 1" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="CR-third CR-container">
+      <a target="popup" href="F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html" onclick="open_window_0()">
+      <img src="https://www.keele.ac.uk/study/campuslife/sportatkeele/facilitieshire/squashandracketball/sports-squash-2013-0139-960x640.jpg" alt="squash court 3" style="width:100%" class="CR-hover-opacity">
+      </a>
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="CR-text-black CR-container" id="vollyball">
+      <h3>VollyBall courts</h3>
+  </div>
+
+<!--Fifth photo grid -->
+    <div class="CR-row-padding">
+    <div class="CR-third CR-container CR-margin-bottom">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKyYA-XbP7ZLB7Npgfd3CUFplzQmgFGLttng&usqp=CAU" alt="vollyball court 1" style="width:100%" class="CR-hover-opacity">
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="CR-third CR-container CR-margin-bottom">
+      <img src="https://image.shutterstock.com/image-photo/school-gym-indoor-playground-basketball-260nw-1796883064.jpg" alt="vollyball court 2" style="width:100%" class="CR-hover-opacity">
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="CR-third CR-container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQRAFdUFZjEvOHfGMdsutl4LbCn7D3y3c4xQ&usqp=CAU" alt="vollyball court" style="width:100%" class="CR-hover-opacity">
+      <div class="CR-container CR-white">
+        <p><b></b></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+<script>
+    // Script to open and close sidebar
+    function CR_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function CR_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+    function open_window_0(){
+        var my_window_0 =window.open('F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html','popup','width=600,height=600'); return true;
+        my_window_0.opener.document.write("<p> This window's name is: " + myWindow.name + "</p>");
+    } 
+    function open_window_1(){
+        window.open('F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html','popup','width=600,height=600'); return false;
+    } 
+    function open_window_2(){
+        window.open('F:\allProjects\htmlProjects\Projects\CourtReservation\_4_Reserve\Reserve.html','popup','width=600,height=600'); return false;
+    } 
+</script>
+
+</body>
+</html>
