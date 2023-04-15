@@ -1,0 +1,77 @@
+<!DOCOTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Court reserve login</title>
+        <link rel="stylesheet" href="Style/StyleSheet2.css" />
+        <link rel="stylesheet" href="Style/StyleSheet1.css"/>
+        <style>
+        body,h1,h2,h3,h4,h5 {font-family: "Lato", sans-serif}
+        .CR-bar, h1, button {font-family:"Montserrat",sans-serif}
+        .fa-anchor, .fa-coffe {font-size:200px}
+        </style>
+    </head>
+    <body>
+        
+<!-- Header -->
+    <header class="CR-display-container CR-content CR-hide-small" style="max-width:1500px">
+        <img class= "CR-quarter CR-image" src="https://p0.piqsels.com/preview/218/795/760/sport-ball-clay-court-thumbnail.jpg" alt=""  width="1500" height="700"/>
+        <img class= "CR-quarter CR-image" src="https://p0.piqsels.com/preview/185/219/591/sport-african-american-basketball-black-thumbnail.jpg" alt=""  width="1000" height="700"/>
+        <img class= "CR-quarter CR-image" src="https://p2.piqsels.com/preview/106/437/191/urban-sport-sports-thumbnail.jpg" alt=""  width="1500" height="700"/>
+        <img class= "CR-quarter CR-image" src="https://p2.piqsels.com/preview/635/443/623/fashion-man-net-tennis-thumbnail.jpg" alt=""  width="1500" height="700"/>
+        <img class= "CR-quarter CR-image" src="https://p2.piqsels.com/preview/212/199/749/various-sport-sports-thumbnail.jpg" alt=""  width="1500"/>
+        <img class= "CR-quarter CR-image" src="https://p2.piqsels.com/preview/813/2/523/football-clip-football-boots-soccer-thumbnail.jpg" alt=""  width="1500" />
+        <img class= "CR-quarter CR-image" src="https://p2.piqsels.com/preview/429/475/605/summer-water-vacation-pool-thumbnail.jpg" alt=""  width="1500" height="700"/>
+
+        <img class= "CR-quarter CR-image" src="https://p2.piqsels.com/preview/324/807/731/various-sport-sports-thumbnail.jpg" alt="athletics running track, Athletics, various, sport, sports, stadium, red, sports Venue, competition, number, running Track, outdoors, sports Track, playing Field, competitive Sport, running, single Line, track and field, sports race, day, starting line, no people, in a row, high angle view, nature, beginnings, diminishing perspective, white color, dividing line, track starting block, 2K, CC0, public domain, royalty free"/>
+        <img class= "CR-quarter CR-image" src="https://p0.piqsels.com/preview/349/85/233/athlete-basket-falling-game-thumbnail.jpg" alt=""  width="1500" height="700"/>
+        <img class= "CR-quarter CR-image" src="https://p2.piqsels.com/preview/697/455/798/squash-sport-man-game-thumbnail.jpg" alt=""  width="1500" height="700"/>
+        <img class= "CR-quarter CR-image" src="https://p2.piqsels.com/preview/421/570/452/squash-sport-man-game-thumbnail.jpg" alt=""  width="1500" height="700"/>
+        <img class= "CR-quarter CR-image" src="https://p0.piqsels.com/preview/923/424/921/action-athletes-ball-basketball-thumbnail.jpg" alt=""  width="1500" height="700"/>
+        
+        
+        <div class="CR-display-middle" style="width:65%">
+            <div class="CR-bar CR-green">
+                <p class="CR-large">Sport Courts</p>
+            </div>
+    <!-- Tabs -->
+        <div id="Flight" class="CR-container CR-white CR-padding-16  myLink">
+            <h3>Welcome back......</h3>
+        <div class="CR-row-padding" style="margin:0 -16px;">
+            <div class="CR-half">
+            <label>User name</label>
+            <input class="CR-input CR-border" type="text" placeholder="Please enter your username">
+        </div>
+        <div class="CR-half">
+          <label>Password</label>
+          <input class="CR-input CR-border"id="pass" type="password" placeholder="Please enter your password">
+          <input  type="checkbox" onclick="PassFunc()">Show Password
+        </div>
+        <div class="CR-text-dark-gray ">
+            <a href="F:\allProjects\htmlProjects\Projects\CourtReservation\_0_WelcomePage-Signup\Start.html">
+                <p>
+                    Forgot password..
+                </p>
+
+            </a>
+        </div>
+        </div>
+        <p><button class="CR-button CR-green">Confirm</button></p>
+        </div>
+
+    <script>
+        function PassFunc() {
+            var passvar = document.getElementById("pass");
+            if (passvar.type === "password") {
+                passvar.type = "text";
+
+            } else {
+                passvar.type = "password";
+            }
+        }
+        function SubFunc() {
+
+        }
+    </script>
+    </body>
+</html>
